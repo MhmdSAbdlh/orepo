@@ -1,0 +1,12 @@
+Package: com.MhmdSAbdlh.anghaminoads_1.0_iphoneos-arm
+Name: AnghamiNoAds
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Disable ADS in Anghami app
+Maintainer: MhmdSAbdlh
+Author: MhmdSAbdlh
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: ./debs/com.MhmdSAbdlh.anghaminoads_1.0_iphoneos-arm.deb
+Size: 3548
+Homepage: https://twitter.com/MhmdSAbdlh
