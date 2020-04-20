@@ -9,7 +9,6 @@ Section: Tweaks
 Depends: mobilesubstrate
 Filename: ./debs/com.MhmdSAbdlh.anghaminoads.deb
 Size: 3548
-MD5sum: 3445a8e290c9a70c0f9e8def5472615cb
 Homepage: https://twitter.com/MhmdSAbdlh
 Depiction: https://mhmdsabdlh.github.io/repo/description.html?id=com.MhmdSAbdlh.anghaminoads
 Icon: file:///Library/icon.png
