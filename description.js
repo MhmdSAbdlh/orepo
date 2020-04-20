@@ -29,7 +29,7 @@ $(function() {
 });
 function loadPackagesInfo() {
 	var urlSelfParts = window.location.href.split('description.html?id=');
-	var form_url = urlSelfParts[0]+"packagesInfo/"+urlSelfParts[1];
+	var form_url = urlSelfParts[0]+"PackagesInfo/"+urlSelfParts[1];
 	if (navigator.userAgent.search(/Cydia/) == -1) {
 		$("#showAddRepo_").show();
 		$("#open_cydia").attr("href","cydia://url/https://cydia.saurik.com/api/share#?source=https://mhmdsabdlh.github.io/repo/&package="+urlSelfParts[1]);
