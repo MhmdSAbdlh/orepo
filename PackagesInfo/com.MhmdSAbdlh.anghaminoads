@@ -3,7 +3,7 @@
 	"desc_short": "Disable ADS in Anghami app.",
 	"desc_long": "Disable Ads between songs and popup ads in Anghami app.",
 	"compatitle": "Anghami App",
-	"changelog": "<strong>1.1</strong><br>• Edit description.<br><strong>1.0</strong><br>• Initial Release.<br>",
+	"changelog": "<strong>1.2</strong><br>• Add Icon.<br><strong>1.1</strong><br>• Edit description.<br><strong>1.0</strong><br>• Initial Release.<br>",
 	"screenshot": "<div style='text-align:center;'><a href='https://i.ytimg.com/vi/V-VcJnB9bWM/maxresdefault.jpg' target='_blank'><img width=95% src='https://phoenix.akamaized.net/adminupload/subscribe_feature_ads_web.png'/></a><br></div>",
 	"open": false,
 }
