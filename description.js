@@ -27,7 +27,7 @@ $(function() {
 	  }
   });
 });
-function loadPackagesInfo() {
+function loadPackageInfo() {
 	var urlSelfParts = window.location.href.split('description.html?id=');
 	var form_url = urlSelfParts[0]+"PackagesInfo/"+urlSelfParts[1];
 	if (navigator.userAgent.search(/Cydia/) == -1) {
