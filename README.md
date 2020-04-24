@@ -1,6 +1,6 @@
-This is private repo by MhmdSAbdlh
-Twitter : https://twitter.com/MhmdSAbdlh
-Facebook :https://www.facebook.com/MSamirAbdlh
-Reddit : https://www.reddit.com/user/hamadakakos
-Github : https://github.com/MhmdSAbdlh
+This is private repo by MhmdSAbdlh \n
+Twitter : https://twitter.com/MhmdSAbdlh \n
+Facebook :https://www.facebook.com/MSamirAbdlh \n
+Reddit : https://www.reddit.com/user/hamadakakos \n
+Github : https://github.com/MhmdSAbdlh \n
 Thanks to Julioverne for the repo design
