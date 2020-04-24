@@ -1,8 +1,11 @@
 Origin: MhmdSAbdlh's repo
-Label: MhmdSAbdlh's repo
+Label: MhmdSAbdlh
 Suite: stable
 Version: 1.0
 Codename: MhmdSAbdlh
-Architectures: iphoneos-arm
+Architecture: iphoneos-arm
 Components: main
 Description: MhmdSAbdlh's Cydia Repository
+MD5Sum:
+ 25f65ed83d84c2d1d591b462fe058f6d 759 Packages
+ 89d67bd41d9a13807e9260b76253999c 531 Packages.bz2

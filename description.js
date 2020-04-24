@@ -177,7 +177,6 @@ function loadPackages() {
 			loadRecentUpdates();
 			$("#browser_").show();
 			$("#updates_").show();
-			
 			loadPackageDetail();
         },
 		error: function (err) {
