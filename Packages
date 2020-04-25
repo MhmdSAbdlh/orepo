@@ -13,6 +13,6 @@ SHA512: 771a3e9d35392f287c12b94c2449ef7ad7dc26da7767a247db301293307f937eeed24ea9
 Homepage: https://mhmdsabdlh.github.io/
 Description: Disable ADS in Anghami app
 Name: AnghamiNoAds
-Author: MhmdSAbdlh
+Author: MhmdSAbdlh <mohamadabdlh95@gmail.com>
 Depiction: https://mhmdsabdlh.github.io/description.html?id=com.MhmdSAbdlh.anghaminoads
 Icon: file:///Library/icon.png
