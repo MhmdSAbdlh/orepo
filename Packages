@@ -5,11 +5,11 @@ Section: Tweaks
 Maintainer: MhmdSAbdlh <mohamadabdlh95@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.MhmdSAbdlh.anghaminoads.deb
-Size: 6552
-MD5sum: 3d5b555bfed13280b8711f668c32d1c5
-SHA1: 98f78fea85014ad436d51bd8b5424d48a7e5ce95
-SHA256: 7dcad3f606c1f45b8116327472bf54210ab3ef20e1c7acab7a710f06fe932ab6
-SHA512: 771a3e9d35392f287c12b94c2449ef7ad7dc26da7767a247db301293307f937eeed24ea96f85359aa43df0b7aa1391b510501a684ade5430e2dccb3b429f3e24
+Size: 8676
+MD5sum: 1c8850a6647b0c291a8a84630be936c6
+SHA1:7d24c721c7058b723fa41b530b6dd544d5b17cb8
+SHA256: 8cef34ea2f68e4e19b635d68322146dbdb2f294ab7be37a90d4d874c6000de34
+SHA512: d44bfd232f99697c6714f864dedbfc14231aa6b2365fc8e9b776ab2258aea3148b0946453a41734c7c15475287a518b6e1853d7d4729ce3a925870327654961c
 Homepage: https://mhmdsabdlh.github.io/
 Description: Disable ADS in Anghami app
 Name: AnghamiNoAds
