@@ -2,7 +2,7 @@ Package: com.MhmdSAbdlh.anghaminoads
 Architecture: iphoneos-arm
 Version: 1.2
 Section: Tweaks
-Maintainer: MhmdSAbdlh
+Maintainer: MhmdSAbdlh <mohamadabdlh95@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.MhmdSAbdlh.anghaminoads.deb
 Size: 6552
