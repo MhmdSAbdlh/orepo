@@ -1,18 +1,18 @@
 Package: com.MhmdSAbdlh.anghaminoads
 Architecture: iphoneos-arm
-Version: 1.2
+Version: 1.3
 Section: Tweaks
 Maintainer: MhmdSAbdlh <mohamadabdlh95@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.MhmdSAbdlh.anghaminoads.deb
-Size: 8676
-MD5sum: 1c8850a6647b0c291a8a84630be936c6
-SHA1:7d24c721c7058b723fa41b530b6dd544d5b17cb8
-SHA256: 8cef34ea2f68e4e19b635d68322146dbdb2f294ab7be37a90d4d874c6000de34
-SHA512: d44bfd232f99697c6714f864dedbfc14231aa6b2365fc8e9b776ab2258aea3148b0946453a41734c7c15475287a518b6e1853d7d4729ce3a925870327654961c
+Size: 8996
+MD5sum: a393dc083342bb6a01e959c6036ec488
+SHA1:97885b999f1bb03cf379566e9cc4b3a5d12715c0
+SHA256: 6098909cdb168cd98aae03be10ada795506ebc1fb9f8ea41fb70690b3f8ea0d2
+SHA512: dac5323ac3a5e5391ab274640ad069a05fe2dcf144a014b42edd334a136aac229d5556595cebfbd0a3fe49d670c853da71b4a2b42c875d52326b9b2b27beec1a
 Homepage: https://mhmdsabdlh.github.io/
 Description: Disable ADS in Anghami app
 Name: AnghamiNoAds
 Author: MhmdSAbdlh <mohamadabdlh95@gmail.com>
 Depiction: https://mhmdsabdlh.github.io/description.html?id=com.MhmdSAbdlh.anghaminoads
-Icon: file:///Library/icon.png
+Icon: file:///Library/PreferenceLoader/Preferences/AnghamiNoAds@2x.png
