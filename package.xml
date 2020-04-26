@@ -1,0 +1,24 @@
+  <package>
+	<id>com.MhmdSAbdlh.anghaminoads</id>
+	<name> AnghamiNoAds</name>
+	<version>1.3</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>13.0</maxiOS>
+			<miniOS>7.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>mobilesubstrate</dependencies>
+	<descriptionlist>
+		<description>Disable ADS in Anghami app</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

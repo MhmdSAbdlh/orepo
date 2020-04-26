@@ -11,6 +11,65 @@
 </head>
 <script src="jquery-3.2.1.min.js"></script>
 <script src="description.js?_=e"></script>
+<script type="text/javascript" src="ios_version_check.js"></script>
+<script type="text/javascript">
+
+	bundleid = $.QueryString['p'];
+
+    var contentBlocks = 	{
+	"#compatibilityCheck" :
+			{"type":"custom"
+				,"source":"package>compatibility>firmware"
+				,"render":function(element,source){
+					var res = ios_version_check(
+						$(source).find("miniOS").text(),
+						$(source).find("maxiOS").text(),
+						$(source).find("otherVersions").text(),
+						function(message,isBad) {
+							$(element).html(message)
+							.addClass( (isBad?'alert-danger':'alert-success'));
+						}
+					);
+					if(res==0) {$(element).hide()}
+				}
+			}
+	$.each(source, function(index,data) {
+                        var a = $("<a class='link-item list-group-item'>");
+                        a.attr("href",$(data).find('url').text());
+                        if ($(data).find('iconclass')) {
+                            var i =  $("<span>")
+                            i.attr("class",$(data).find('iconclass').text());
+                            console.log(i);
+                            $(a).append(i);
+                        }
+                        $(a).append($(data).find('name').text());
+                        $(element).append(a);
+                    }); //each
+
+				}
+
+			}
+	}
+    $( document ).ready(function() {
+        $.ajax({
+            type    : "GET",
+            dataType: "xml",
+            url     : ("package.xml"),
+            success : function(xml){
+				document.title = $(xml).find("package>name").text();
+            	data_loader_engine(contentBlocks,xml)
+
+            },
+			cache   : false,
+            error: function() {
+                $("#packageError").show();
+				$("#packageInformation").hide();
+            }
+        }); //ajax
+
+    }); // ready
+  </script>
+
 <body onload="loadPackageInfo();loadPackages();">
 	<main id="content">
 		<span id="showAddRepo_" hidden>
@@ -48,10 +107,11 @@
 		</noscript>
 		<span id="tweakStatusInfo"><h2></h2><ul style="background:#c6e8ff"><center><li><p id="errorInfo">Loading Description...</p></li></center></ul></span>
 		<span id="desc_short_" hidden><h2 id="name" hidden></h2><ul style="background:#c6e8ff"><center><li><p id="desc_short"></p></li></center></ul></span>
-		<span id="compatitle_" hidden>
-			<ul style="background:#00ff24"><center><li><p><i>Compatible with <span id="compatitle"></span></i></p></li></center></ul>
-			<p style="text-align:center;font-size:10px;" role="footer" id="neo" class="cur_ios"></p>
-		</span>
+
+		<div class="container">
+	  <div id="compatibilityCheck" class="alert"></div>
+	</div>
+
 		<span id="warning_" hidden><ul style="background:#ffff80"><center><li><p><span id="warning"></span></p></li></center></ul></span>
 		<span id="desc_long_" hidden><h2>Description</h2><ul><li><p id="desc_long"></p></li></ul></span>
 		<span id="screenshot_" hidden><h2>Screenshot's</h2><ul><li><p id="screenshot"></p></li></ul></span>
