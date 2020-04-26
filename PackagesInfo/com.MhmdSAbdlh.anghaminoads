@@ -1,10 +1,9 @@
 {
-	"name": "AnghamiNoAds",
+	"name": "Anghami No Ads",
 	"desc_short": "Disable ADS in Anghami app.",
 	"desc_long": "Disable Ads between songs and popup ads in Anghami app.",
-	"compatitle": "Anghami App",
-	"firmware":"<miniOS>7.0</miniOS><maxiOS>13.0</maxiOS><maxiOS>13.0</maxiOS><otherVersions>unsupported</otherVersions>"
+	"compatitle": "With all versions.",
 	"changelog": "<strong>1.3</strong><br>• Add Preference Panel.<br><strong>1.2</strong><br>• Add Icon.<br><strong>1.1</strong><br>• Edit description.<br><strong>1.0</strong><br>• Initial Release.<br>",
-	"screenshot": "<div style='text-align:center;'><a href='https://i.ytimg.com/vi/V-VcJnB9bWM/maxresdefault.jpg' target='_blank'><img width=95% src='https://phoenix.akamaized.net/adminupload/subscribe_feature_ads_web.png'/></a><br></div>",
+	"screenshot": "<div style='text-align:center;'><a href='https://www.bizbahrain.com/wp-content/uploads/2017/10/Anghami.jpg' target='_blank'><img width=95% src='https://www.bizbahrain.com/wp-content/uploads/2017/10/Anghami.jpg'/></a><br></div>",
 	"open": false,
 }
