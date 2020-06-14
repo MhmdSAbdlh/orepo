@@ -10,9 +10,9 @@ MD5sum: a393dc083342bb6a01e959c6036ec488
 SHA1:97885b999f1bb03cf379566e9cc4b3a5d12715c0
 SHA256: 6098909cdb168cd98aae03be10ada795506ebc1fb9f8ea41fb70690b3f8ea0d2
 SHA512: dac5323ac3a5e5391ab274640ad069a05fe2dcf144a014b42edd334a136aac229d5556595cebfbd0a3fe49d670c853da71b4a2b42c875d52326b9b2b27beec1a
-Homepage: https://mhmdsabdlh.github.io/
+Homepage: https://mhmdsabdlh.github.io/orepo
 Description: Disable ADS in Anghami app
 Name: AnghamiNoAds
 Author: MhmdSAbdlh <mohamadabdlh95@gmail.com>
-Depiction: https://mhmdsabdlh.github.io/description.html?id=com.MhmdSAbdlh.anghaminoads
+Depiction: https://mhmdsabdlh.github.io/orepo/description.html?id=com.MhmdSAbdlh.anghaminoads
 Icon: file:///Library/PreferenceLoader/Preferences/AnghamiNoAds@2x.png
